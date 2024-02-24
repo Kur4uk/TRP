@@ -1,0 +1,14 @@
+.registration {
+    justify-content: center;
+}
+
+.boxreg {
+    color: aqua;
+}
+
+.name {
+    color: azure;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
