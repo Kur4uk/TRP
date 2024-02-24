@@ -1,0 +1,293 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+ }
+
+ body {
+     margin: 0;
+     background-color: #fff;
+     border: 1px solid gray;
+
+ }
+
+ /* HEADER */
+ .wrapper {
+     background-color: #568dfc;
+     border-bottom: 2px solid red;
+     padding-bottom: 1vh;
+ }
+
+ .nav-wrapper {
+     justify-content: space-between;
+     display: flex;
+     margin: 0 1vh 0 2vh;
+ }
+
+ h1 {
+     font-size: 32px;
+ }
+
+ h1 a {
+    text-decoration: none;
+ }
+
+ .nameColor {
+     color: #fff;
+     font-size: 20px;
+ }
+
+ .regist {
+     display: flex;
+     align-items: center;
+ }
+
+ a {
+     color: black;
+ }
+
+ .log {
+     padding-right: 0.6vh;
+ }
+
+
+ .log a {
+     transition: background-color 0.3s ease;
+ }
+
+
+
+ .log a:hover {
+     padding: 10px 10px;
+     background-color: #007bff;
+     /* Колір фону кнопки */
+     color: #fff;
+     /* Колір тексту кнопки */
+     border-radius: 0.4vh;
+     background-color: #0056b3;
+     /* Колір фону кнопки при наведенні */
+ }
+
+ .logtwo a {
+
+     transition: background-color 0.3s ease;
+ }
+
+ .logtwo a:hover {
+     padding: 10px 10px;
+     background-color: #007bff;
+     /* Колір фону кнопки */
+     color: #fff;
+     /* Колір тексту кнопки */
+     border-radius: 0.4vh;
+     background-color: #0056b3;
+     /* Колір фону кнопки при наведенні */
+ }
+
+ /* MAIN */
+
+ .content {
+     display: block;
+     margin-top: 20px;
+     height: 82.1vh;
+
+ }
+
+ .book {
+     border-bottom: 1px solid gray;
+     border-top: 1px solid gray;
+     display: flex;
+
+ }
+
+ .photobook {
+     padding: 3vh;
+
+ }
+
+ .ad {
+     flex-direction: column;
+ }
+
+ .author {
+     font-size: 22px;
+     padding: 30px 30px 5px 0px;
+ }
+
+ .description>p {
+     padding: 0 25px 10px 0;
+     text-align: justify;
+     text-indent: 10px;
+ }
+
+ .ref {
+     text-align: right;
+     padding-right: 40px;
+ }
+
+ /* FOOTER */
+
+ footer {
+     background-color: #2e3340;
+     color: #fff;
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 7.7vh;
+     min-height: 0.9vh;
+
+ }
+
+ /* LOGIN */
+
+
+ .window-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 84.3vh;
+ }
+
+
+ .nameform {
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+
+ }
+
+ .form input {
+     width: 100%;
+     padding: 0.5rem;
+     margin-bottom: 1rem;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+
+ .form button {
+     width: 100%;
+     padding: 0.5rem;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+
+ .form button:hover {
+     padding: 10px 10px;
+     background-color: #007bff;
+     color: #fff;
+     border-radius: 0.4vh;
+     background-color: #0056b3;
+ }
+
+ /* BOOK */
+
+ .maim-content {
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     font-size: 1.5rem;
+ }
+
+ .book-description {
+     display: flex;
+     flex-direction: row;
+     border-bottom: 2px solid blue;
+     padding-bottom: 10px;
+
+
+ }
+
+ .imgSize img {
+     border: 3px solid brown;
+     width: 200px;
+     height: 300px;
+     justify-content: left;
+ }
+
+ .information {
+     margin-left: 3vh;
+     margin-top: 8vh;
+     margin-right: auto;
+     color: #2e3340;
+     transition: color 0.3s ease, background-color 0.3s ease;
+ }
+
+ .information a:hover {
+     color: #0074d9;
+     margin: 0.4vh;
+ }
+
+ .favorite {
+     font-size: 18px;
+     color: green;
+     text-decoration: underline;
+ }
+
+ .nameCadet {
+     font-size: 18px;
+ }
+
+ .navigation {
+     float: right;
+     text-align: right;
+ }
+
+ .abbreviatedDescription>p {
+     padding-top: 2vh;
+     padding-left: 2vh;
+     text-indent: 2vh;
+     text-align: justify;
+     width: 180vh;
+ }
+
+ .abbreviatedDescription {
+     display: flex;
+     flex-direction: row;
+     float: right;
+     justify-content: space-between;
+     padding-bottom: 2vh;
+     border-bottom: 2px solid blue;
+
+ }
+
+ .autobiography {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 2vh;
+     padding-bottom: 2vh;
+     border-bottom: 2px solid blue;
+
+ }
+
+ .authorinformation {
+     margin-left: 3vh;
+     margin-right: auto;
+     text-align: justify;
+     width: 155vh;
+ }
+
+ .section {
+     display: flex;
+     flex-direction: column;
+     float: left;
+     text-indent: 6vh;
+     transition: underline 0.3s ease;
+ }
+
+ .section a {
+     color: #007bff;
+     font-weight: bold;
+ }
+
+ .section :hover {
+     text-decoration: none;
+     color: rgb(204, 0, 255);
+ }
